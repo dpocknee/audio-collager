@@ -1,0 +1,12 @@
+length: 12s 
+file: hiphop = test/badmessmaster.wav 
+
+0s @ test/badmessmaster.wav 1.0s - 2.3s * 0.5 0.5 
+1s @ hiphop 1.0s + 1.3s * 0.5 
+8s @ hiphop 1.0s
+
+2s @ hiphop 1.0s + 0.2s
+2.2s @ hiphop 1.0s + 0.2s
+2.4s @ hiphop 1.0s + 0.2s
+2.6s @ hiphop 1.0s + 0.2s
+2.8s @ hiphop 1.0s + 0.2s
