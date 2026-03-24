@@ -6,7 +6,7 @@ description   = "Small program for audio collaging"
 license       = "MIT"
 srcDir        = "src"
 bin           = @["collager"]
-
+binDir        = "bin"
 
 # Dependencies
 
