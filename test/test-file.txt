@@ -1,4 +1,4 @@
-LENGTH 1m
+LENGTH 0.5m
 FILE test/tester.wav ALIAS testAlias
 
 // Comment

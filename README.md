@@ -8,7 +8,7 @@ The default sample rate is 44,100Hz.
 
 ## Building
 
-You can use the command `nimble build` or `nim c -o:bin/collager src/collager.nim` to build the project.  
+You can use the command `nimble build` or `nim c -d:release -o:bin/collager src/collager.nim` to build the project.  Compiling it in `release` mode _greatly_ improves the speed of the program.
 
 ## Text file
 
@@ -49,3 +49,30 @@ Where `<source>` can be:
 - alias
 - SINE <freq>
 - NOISE
+
+
+## Times 
+
+Times can be in the following formats:
+
+- seconds
+  - `1s`
+  - `1.5s`
+  - `3 seconds`
+  - `3.21 seconds`
+- milliseconds
+  - `1ms`
+  - `1.5ms`
+  - `3 milliseconds`
+  - `3.21 milliseconds`
+- minutes
+  - `1m`
+  - `1.5m` (equivalent to 90 seconds)
+  - `3 minutes`
+  - `3.21 minutes`
+- samples
+  - `500 samples`
+
+These can be combined when chained after each other.  e.g.
+
+```15 minutes 13 seconds 150 milliseconds```
